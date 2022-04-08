@@ -1,3 +1,3 @@
-import Logging
-import Generator
+from . import Logging
+from . import Generator
 
