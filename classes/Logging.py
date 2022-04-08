@@ -7,7 +7,7 @@ warningPrefix = "[WARNING] "
 errorPrefix = "[ERROR] "
 criticalPrefix = "[CRITICAL] "
 
-from .. import Config
+from . import Config
 
 def debug(text):
     if Config.debug == True:
